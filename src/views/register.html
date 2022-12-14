@@ -60,11 +60,11 @@
         <form action="" method="" class="form-nuevo-usuario">
 
             <input type="text" name="nombre" placeholder="Nombre y Apellido" minlength="3" required>
-            <input type="text" name="usuario" placeholder="Nombre de Usuario">
-            <input type="email" name="email" placeholder="E-mail">
+            <input type="text" name="usuario" placeholder="Nombre de Usuario" minlength="3" required>
+            <input type="email" name="email" placeholder="E-mail" required>
             <h2>Fecha de nacimiento</h2>
             <input type="date" name="nacimiento">
-            <input type="text" name="domicilio" placeholder="Domicilio">
+            <input type="text" name="domicilio" placeholder="Domicilio" minlength="3" required>
             <h2>Perfil de comprador</h2>
             <div class="perfil-comprador">
                 <label>
@@ -93,8 +93,8 @@
             </div>
             <label>SUBÍ TU FOTO DE USUARIO</label>
                 <input type="file" name="avatar" id="" accept=".jpg">
-            <input type="password" name="password" id="" placeholder="Contraseña">
-            <input type="password" name="password" id="" placeholder="Confirmar Contraseña">
+            <input type="password" name="password" id="" placeholder="Contraseña"required>
+            <input type="password" name="password" id="" placeholder="Confirmar Contraseña" required>
             <div class="button-register">
             <button onclick="location.href='/'" type="button">
                 ENVIAR</button>
