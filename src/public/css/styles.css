@@ -428,7 +428,7 @@ footer {
 
    .search-bar {
     margin-top: 0;
-    width: 35%;
+    margin-left: 30px;
    }
 
     .nav-options {
@@ -498,6 +498,9 @@ footer {
         
         max-width: 20%;
         margin: 10px;
+    }
+    .search-bar {
+        margin-left: 50px;
     }
     
 }
